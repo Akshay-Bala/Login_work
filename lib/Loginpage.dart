@@ -258,7 +258,7 @@ class LoginPage extends StatelessWidget {
 }
 
 class AuthService {
-  final String baseUrl = "https://musicapp.jissanto.com/api";
+  final String baseUrl = " ";
 
   Future<bool> login(String username,String password) async {
     try {
